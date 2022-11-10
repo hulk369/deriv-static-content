@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../.github"
+        },
+        {
+            "path": "../.vercel"
+        },
+        {
+            "path": "../public"
+        },
+        {
+            "path": "../scripts"
+        }
+    ]
+}
