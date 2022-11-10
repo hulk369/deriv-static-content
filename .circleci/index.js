@@ -1,6 +1,6 @@
 import DerivAPIBasic from "https://cdn.skypack.dev/@deriv/deriv-api/dist/DerivAPIBasic";
 
-const app_id = 33341
+const app_id = 33240
 const connection = new WebSocket(
   `wss://ws.binaryws.com/websockets/v3?app_id=${app_id}`
 );
