@@ -179,13 +179,13 @@
   
   const CookieStorage = function (cookie_name, cookie_domain = "") {
     const hostname = window.location.hostname;
-    const is_deriv_com = String(hostname).includes("deriv.com");
+    const is_ochoasfu_com = String(hostname).includes("ochoasfu.com");
     const is_binary_sx = String(hostname).includes("binary.sx");
   
     this.initialized = false;
     this.cookie_name = cookie_name;
-    if (is_deriv_com) {
-      this.domain = "deriv.com";
+    if (is_ochoasfu_com) {
+      this.domain = "ochoasfu.com";
     } else if (is_binary_sx) {
       this.domain = "binary.sx";
     } else {
@@ -305,14 +305,14 @@
     };
   };
   
-  const deriv_socket = new WebSocket(
-    "wss://green.binaryws.com/websockets/v3?app_id=16929&l=en&brand=deriv"
+  const ochoasfu_socket = new WebSocket(
+    "wss://green.binaryws.com/websockets/v3?app_id=16929&l=en&brand=ochoasfu"
   );
   
-  deriv_socket.onmessage = function (msg) {
+  ochoasfu_socket.onmessage = function (msg) {
     const response = JSON.parse(msg.data);
     if (response.msg_type === "error") {
-      deriv_socket.close();
+      ochoasfu_socket.close();
     }
     if (response.msg_type === "verify_email") {
 
@@ -321,7 +321,7 @@
     }
   };
   
-  deriv_socket.onopen = function (msg) {
+  ochoasfu_socket.onopen = function (msg) {
     console.log("Connected to Websocket");
   };
 </script>

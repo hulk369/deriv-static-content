@@ -1,4 +1,4 @@
-<h1 align="center"> static.deriv.com </h1>
+<h1 align="center"> static.ochoasfu.com </h1>
 
 A repository for Digital marketing codes, email templates, images, company PDFs,...
 
@@ -12,18 +12,18 @@ A repository for Digital marketing codes, email templates, images, company PDFs,
 ## Quick start
 1.  **Fork the project**
 
-    In order to work on your own version of the Deriv application, please fork the project to your own repo.
+    In order to work on your own version of the ochoasfu application, please fork the project to your own repo.
 
 2.  **Clone using SSH**
 
     ```sh
-    git clone git@github.com:your-github-username/deriv-static-content.git
+    git clone git@github.com:your-github-username/ochoasfu-static-content.git
     ```
 
 3.  **Enter project directory**
 
     ```sh
-    cd deriv-static-content
+    cd ochoasfu-static-content
     ```
 
 4.  **Install your dependencies: not necessary, just to test and debugging purpuse**
@@ -83,5 +83,5 @@ Example of release steps
 By Vercel CLI can have a preview then add to cards to check by Requesters, stakeholders or PMs.
 
 ## Other documents:
--   [File paths for images, pdf, email templates,...](https://github.com/binary-com/deriv-static-content/blob/master/public/documents/file-structure.md)
+-   [File paths for images, pdf, email templates,...](https://github.com/binary-com/ochoasfu-static-content/blob/master/public/documents/file-structure.md)
 

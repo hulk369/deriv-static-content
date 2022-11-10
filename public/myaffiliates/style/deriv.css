@@ -2262,7 +2262,7 @@ h2 {
     padding: 8px;
     margin-top: 25px;
 }
-.sidebar-deriv {
+.sidebar-ochoasfu {
     border: 0px solid #cccccc;
 }
 .aside .section h1, #aside .section h1 {
@@ -2379,7 +2379,7 @@ button, .button, a.button, input[type=submit] {
     outline: none;
 }
 
-.deriv-button, a.deriv-button {
+.ochoasfu-button, a.ochoasfu-button {
     display: inline-block;
     padding: 10px 16px !important;
     font-size: 14px !important;
@@ -2437,7 +2437,7 @@ button:hover, .button:hover, input[type=submit]:hover {
     padding: 8px;
     margin-top: 25px;
 }
-.sidebar-deriv {
+.sidebar-ochoasfu {
     border: 0px solid #cccccc;
 }
 .aside .section h1, #aside .section h1 {

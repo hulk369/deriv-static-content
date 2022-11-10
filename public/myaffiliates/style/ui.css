@@ -2266,7 +2266,7 @@ h2 {
   padding: 8px;
   margin-top: 25px;
 }
-.sidebar-deriv {
+.sidebar-ochoasfu {
   border: 0px solid #cccccc;
 }
 .aside .section h1,
@@ -2400,8 +2400,8 @@ input[type="submit"] {
   outline: none;
 }
 
-.deriv-button,
-a.deriv-button {
+.ochoasfu-button,
+a.ochoasfu-button {
   display: inline-block;
   padding: 10px 16px !important;
   font-size: 14px !important;
@@ -2462,7 +2462,7 @@ a.button-secondary,
   padding: 8px;
   margin-top: 25px;
 }
-.sidebar-deriv {
+.sidebar-ochoasfu {
   border: 0px solid #cccccc;
 }
 .aside .section h1,
@@ -2864,7 +2864,7 @@ input[type="number"] {
   box-sizing: border-box;
 }
 /* Header */
-.deriv-header {
+.ochoasfu-header {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -2945,7 +2945,7 @@ input[type="number"] {
 }
 @media screen and (max-width: 992px) {
   #MainNav,
-  .deriv-header,
+  .ochoasfu-header,
   .header-user {
     display: none;
   }
@@ -3061,8 +3061,8 @@ input[type="submit"] {
   outline: none;
 }
 
-.deriv-button,
-a.deriv-button {
+.ochoasfu-button,
+a.ochoasfu-button {
   display: inline-block;
   padding: 10px 16px !important;
   font-size: 14px !important;
@@ -3128,7 +3128,7 @@ a.button-secondary {
   padding: 8px;
   margin-top: 25px;
 }
-.sidebar-deriv {
+.sidebar-ochoasfu {
   border: 0px solid #cccccc;
 }
 .aside .section h1,
@@ -3314,22 +3314,22 @@ em {
 }
 
 /* FAQ */
-.deriv-faq ul {
+.ochoasfu-faq ul {
   margin: 30px 0 30px 40px;
 }
-.deriv-faq ul li {
+.ochoasfu-faq ul li {
   margin: 15px 0;
 }
-.deriv-faq a {
+.ochoasfu-faq a {
   font-weight: 600;
   color: #ff444f;
 }
-.deriv-faq img {
+.ochoasfu-faq img {
   display: block;
   margin: 50px 0;
   max-width: 800px;
 }
-.deriv-faq strong {
+.ochoasfu-faq strong {
   color: #000000;
 }
 /* Pass pages */
