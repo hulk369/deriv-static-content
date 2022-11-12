@@ -1,20 +1,31 @@
 {
-  "name": "sincronizacion-financiera",
+	"resource": "/c:/Users/joshu/OneDrive/Documentos/GitHub/sincronizacion financiera/package.json",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "768",
+	"severity": 4,
+	"message": "Problems loading reference 'https://json.schemastore.org/package': Unable to load schema from 'https://json.schemastore.org/package': connect ETIMEDOUT 20.42.128.105:443.",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 2
+
+  
+  "Name": "sincronizacion-financiera",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\"> static.deriv.com </h1>",
+  "description": "<h1 align=\"center\"> static.ochoasfu.com </h1>",
   "main": "index.js",
   "scripts": {
     "release": "node scripts/release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prince-deriv/deriv-static-content.git"
+    "url": "git+https://github.com/prince-ochoasfu/ochoasfu-static-content.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prince-deriv/deriv-static-content/issues"
+    "url": "https://github.com/prince-ochoasfu/ochoasfu-static-content/issues"
   },
-  "homepage": "https://github.com/prince-deriv/deriv-static-content#readme"
+  "homepage": "https://github.com/prince-ochoasfu/ochoasfu-static-content#readme"
 }
 

@@ -1,10 +1,10 @@
-import DerivAPIBasic from "https://cdn.skypack.dev/@deriv/deriv-api/dist/DerivAPIBasic";
+import ochoasfuAPIBasic from "https://cdn.skypack.dev/@ochoasfu/ochoasfu-api/dist/ochoasfuAPIBasic";
 
 const app_id = 33240
 const connection = new WebSocket(
   `wss://ws.binaryws.com/websockets/v3?app_id=${app_id}`
 );
-const api = new DerivAPIBasic({ connection });
+const api = new ochoasfuAPIBasic({ connection });
 const tickStream = () => api.subscribe({ ticks: "R_100" });
 
 const tickResponse = async (res) => {
